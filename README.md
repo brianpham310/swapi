@@ -14,7 +14,7 @@ After that you're ready to explore the app
 
 # Usage
 
-The home page display the actions, click on the one you want to execute. Note that on the Characters Import Interface and Mass update characters Interface there is some javascript to improve user's experience.
+The home page display the actions, click on the one you want to execute. Note that on the Characters Import Interface and Mass update characters Interface i used Vuejs to improve user's experience.
 
 # SQL and CSV files
 
