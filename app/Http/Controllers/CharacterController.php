@@ -125,6 +125,7 @@ class CharacterController extends BaseController
         $validHomeWorlds = implode(",", Character::getHomeWorldNames()->toArray());
         foreach ($characterArr as $character) {
             $validator = \Illuminate\Support\Facades\Validator::make($character, [
+                    'name' => 'required|string',
                     'height' => 'sometimes|numeric',
                     'mass' => 'sometimes|numeric',
                     'hair_color' => 'sometimes|string',
