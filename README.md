@@ -1,5 +1,9 @@
 # swapi
 
+# Code structure
+  Back-end uses Laravel and front-end uses Vuejs. One of the special features of the back-end is it uses Promise to send multiple requests to the remote API.
+  Regarding database name i used 'jedi' instead of 'swapi'.
+  
 # Project  setup
 Download the source code, set up your webserver of your choice. Run these following commands after that.
 1. composer install
@@ -9,3 +13,12 @@ Download the source code, set up your webserver of your choice. Run these follow
 After that you're ready to explore the app
 
 # Usage
+
+The home page display the actions, click on the one you want to execute. Note that on the Characters Import Interface and Mass update characters Interface there is some javascript to improve user's experience.
+
+# SQL files
+
+They are under 'puublic/files' directory.
+
+
+
