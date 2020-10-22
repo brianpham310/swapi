@@ -9,6 +9,7 @@ Download the source code, set up your webserver of your choice. Run these follow
 1. composer install
 2. npm install
 3. npm run dev
+4. php artisan migrate
 
 After that you're ready to explore the app
 
