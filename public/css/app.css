@@ -1,0 +1,21 @@
+.app {
+  margin-top: 5rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+table th {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.container.big {
+  max-width: 1400px;
+}
+
+.character-details-list {
+  max-height: 1000px;
+  overflow-y: scroll;
+}
