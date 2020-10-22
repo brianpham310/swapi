@@ -19,6 +19,7 @@ class ConcurrentRequest
 
     /**
      * Send concurrent get requests to $urls
+     * And use callback function to process the result
      * @param $urls
      * @param $callbackFunc
      * @return Pool

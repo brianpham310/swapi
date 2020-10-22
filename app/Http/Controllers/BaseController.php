@@ -8,6 +8,7 @@ class BaseController extends Controller
 {
     protected $starWarHelper;
 
+    // initialize its starwar helper
     function __construct()
     {
         $this->starWarHelper = new StarWar();

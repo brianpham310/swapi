@@ -16,6 +16,7 @@ class StarWar
     }
 
     /**
+     * Get Data from a specific endpoint with options for page and search keyword
      * @param string $endpoint
      * @param int $page
      * @param string $keyword

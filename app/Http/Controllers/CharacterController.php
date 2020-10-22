@@ -120,6 +120,7 @@ class CharacterController extends BaseController
     public function massUpdate()
     {
         $file = public_path('files/characters_to_update.csv');
+        // read data from csv and convert to array
         $characterArr = FileHelper::csvToArray($file);
         $validSpecies = implode(",", Character::getSpeciesNames()->toArray());
         $validHomeWorlds = implode(",", Character::getHomeWorldNames()->toArray());
@@ -136,6 +137,7 @@ class CharacterController extends BaseController
                     'species_name' => "sometimes|string|in:$validSpecies",
                 ]
             );
+            // only update if pass validation
             if (!$validator->fails()) {
                 // get the characters with name
                 $characterRecord = Character::where('name', '=', $character['name'])->first();
