@@ -16,7 +16,7 @@ After that you're ready to explore the app
 
 The home page display the actions, click on the one you want to execute. Note that on the Characters Import Interface and Mass update characters Interface there is some javascript to improve user's experience.
 
-# SQL files
+# SQL and CSV files
 
 They are under 'public/files' directory.
 
