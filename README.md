@@ -18,7 +18,7 @@ The home page display the actions, click on the one you want to execute. Note th
 
 # SQL files
 
-They are under 'puublic/files' directory.
+They are under 'public/files' directory.
 
 
 
