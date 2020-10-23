@@ -1,7 +1,7 @@
 # swapi
 
 # Code structure
-  Back-end uses Laravel and front-end uses Vuejs. One of the special features of the back-end is it uses Promise to send multiple requests to the remote API.
+  Back-end uses Laravel and front-end uses Vuejs. One of the special features of the back-end is it uses Promise to send multiple concurrent requests to the remote API.
   Regarding database name i used 'jedi' instead of 'swapi'.
   
 # Project  setup
